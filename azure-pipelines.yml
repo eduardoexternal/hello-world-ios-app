@@ -21,7 +21,6 @@ steps:
 - task: Xcode@5
   inputs:
     actions: 'test'
-    scheme: ''
     sdk: 'iphoneos'
     configuration: 'Release'
     xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
