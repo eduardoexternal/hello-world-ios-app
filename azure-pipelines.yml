@@ -22,5 +22,5 @@ steps:
   inputs:
     actions: 'test'
     configuration: 'Release'
-    sdk: 'iphoneos'
+    sdk: 'macosx'
     xcodeVersion: 'default' # Options: 8, 9, 10, default, specifyPath
