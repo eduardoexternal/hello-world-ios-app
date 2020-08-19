@@ -23,5 +23,5 @@ steps:
     actions: 'test'
     configuration: 'Release'
     sdk: 'macosx'
-    scheme: 'HelloWorldProjectTests'
+    scheme: 'HelloWorldProject'
     xcodeVersion: 'default' # Options: 8, 9, 10, default, specifyPath
