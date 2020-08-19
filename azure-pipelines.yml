@@ -25,5 +25,5 @@ steps:
     destinationSimulators: 'iPhone 11'
     configuration: 'Release'
     sdk: 'iphoneos'
-    scheme: 'HelloWorldProject'
+    scheme: 'HelloWorldProjectTest'
     xcodeVersion: 'default' # Options: 8, 9, 10, default, specifyPath
