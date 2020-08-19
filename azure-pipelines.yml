@@ -21,6 +21,7 @@ steps:
 - task: Xcode@5
   inputs:
     actions: 'test'
+    destinationPlatformOption: 'iOS'
     configuration: 'Release'
     sdk: 'iphoneos'
     scheme: 'HelloWorldProject'
