@@ -22,6 +22,7 @@ steps:
   inputs:
     actions: 'test'
     destinationPlatformOption: 'iOS'
+    destinationSimulators: 'iPhone 11'
     configuration: 'Release'
     sdk: 'iphoneos'
     scheme: 'HelloWorldProject'
