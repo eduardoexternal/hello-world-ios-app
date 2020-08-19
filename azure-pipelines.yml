@@ -15,7 +15,7 @@ steps:
     actions: 'build'
     scheme: ''
     sdk: 'iphoneos'
-    configuration: 'Release'
+    configuration: 'Debug'
     xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
     xcodeVersion: 'default' # Options: 8, 9, 10, default, specifyPath
 - task: Xcode@5
@@ -23,7 +23,7 @@ steps:
     actions: 'test'
     destinationPlatformOption: 'iOS'
     destinationSimulators: 'iPhone 11'
-    configuration: 'Release'
+    configuration: 'Debug'
     sdk: 'iphoneos'
-    scheme: 'HelloWorldProjectTest'
+    scheme: 'HelloWorldProject'
     xcodeVersion: 'default' # Options: 8, 9, 10, default, specifyPath
