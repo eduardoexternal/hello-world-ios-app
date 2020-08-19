@@ -22,6 +22,6 @@ steps:
   inputs:
     actions: 'test'
     configuration: 'Release'
-    sdk: 'macosx'
+    sdk: 'iphoneos'
     scheme: 'HelloWorldProject'
     xcodeVersion: 'default' # Options: 8, 9, 10, default, specifyPath
